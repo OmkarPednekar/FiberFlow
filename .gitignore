@@ -1,0 +1,12 @@
+/react_frontend/node_modules
+/react_frontend/logs
+/react_frontend/*.log
+/react_frontend/npm-debug.log*
+/react_frontend/yarn-debug.log*
+/react_frontend/yarn-error.log*
+/react_frontend/pnpm-debug.log*
+/react_frontend/lerna-debug.log*
+/react_frontend/dist
+/react_frontend/dist-ssr
+/react_frontend/*.local
+/rust_backend/target

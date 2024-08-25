@@ -11,7 +11,7 @@
     "type": "Core Node",
     "name": "Delhi",
     "latitude": 28.6139,
-    "longitude": 77.2090
+    "longitude": 77.209
   },
   {
     "id": "core3",
@@ -38,7 +38,7 @@
     "id": "regional2",
     "type": "Regional Hub",
     "name": "Hyderabad",
-    "latitude": 17.3850,
+    "latitude": 17.385,
     "longitude": 78.4867
   },
   {
@@ -46,7 +46,7 @@
     "type": "Regional Hub",
     "name": "Jaipur",
     "latitude": 26.9221,
-    "longitude": 75.8140
+    "longitude": 75.814
   },
   {
     "id": "regional4",
@@ -60,7 +60,7 @@
     "type": "MAN Node",
     "name": "Ahmedabad",
     "latitude": 23.0225,
-    "longitude": 72.6070
+    "longitude": 72.607
   },
   {
     "id": "man2",
@@ -88,7 +88,7 @@
     "type": "MAN Node",
     "name": "Guwahati",
     "latitude": 26.1477,
-    "longitude": 91.7330
+    "longitude": 91.733
   },
   {
     "id": "man6",
