@@ -1,8 +1,10 @@
 import "./App.css";
-import MapPlotter from "./components/mapPlotter";
+import InputComponent from "./components/InputComponent";
+import MapPlotter from "./components/MapPlotter";
 function App() {
   return (
     <>
+      <InputComponent />
       <MapPlotter />
     </>
   );
