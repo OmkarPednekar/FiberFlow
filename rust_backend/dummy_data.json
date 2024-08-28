@@ -4,104 +4,158 @@
     "type": "CoreNode",
     "name": "Mumbai",
     "latitude": 18.9769,
-    "longitude": 72.8257
+    "longitude": 72.8257,
+    "connections": ["core2", "core3", "core4", "man1", "man2"]
   },
   {
     "id": "core2",
     "type": "CoreNode",
     "name": "Delhi",
     "latitude": 28.6139,
-    "longitude": 77.209
+    "longitude": 77.209,
+    "connections": [
+      "core1",
+      "core3",
+      "core4",
+      "regional3",
+      "regional4",
+      "regional5",
+      "regional6"
+    ]
   },
   {
     "id": "core3",
     "type": "CoreNode",
     "name": "Kolkata",
     "latitude": 22.5726,
-    "longitude": 88.3639
+    "longitude": 88.3639,
+    "connections": ["core1", "core2", "core4", "man4", "man5", "man6", "man7"]
   },
   {
     "id": "core4",
     "type": "CoreNode",
     "name": "Bengaluru",
     "latitude": 12.9716,
-    "longitude": 77.5946
+    "longitude": 77.5946,
+    "connections": [
+      "core1",
+      "core2",
+      "core3",
+      "regional1",
+      "regional2",
+      "regional7"
+    ]
   },
   {
     "id": "regional1",
     "type": "RegionalHub",
     "name": "Chennai",
     "latitude": 13.0827,
-    "longitude": 80.2778
+    "longitude": 80.2778,
+    "connections": ["core4", "man1"]
   },
   {
     "id": "regional2",
     "type": "RegionalHub",
     "name": "Hyderabad",
     "latitude": 17.385,
-    "longitude": 78.4867
+    "longitude": 78.4867,
+    "connections": ["core4", "man3"]
   },
   {
     "id": "regional3",
     "type": "RegionalHub",
     "name": "Jaipur",
     "latitude": 26.9221,
-    "longitude": 75.814
+    "longitude": 75.814,
+    "connections": ["core2"]
   },
   {
     "id": "regional4",
     "type": "RegionalHub",
     "name": "Lucknow",
     "latitude": 26.8467,
-    "longitude": 80.9358
+    "longitude": 80.9358,
+    "connections": ["core2"]
+  },
+  {
+    "id": "regional5",
+    "type": "RegionalHub",
+    "name": "Bhopal",
+    "latitude": 23.0326,
+    "longitude": 77.1028,
+    "connections": ["core2"]
+  },
+  {
+    "id": "regional6",
+    "type": "RegionalHub",
+    "name": "Chandigarh",
+    "latitude": 30.7333,
+    "longitude": 76.7794,
+    "connections": ["core2"]
+  },
+  {
+    "id": "regional7",
+    "type": "RegionalHub",
+    "name": "Kochi",
+    "latitude": 9.9312,
+    "longitude": 76.3077,
+    "connections": ["core4"]
   },
   {
     "id": "man1",
     "type": "MANNode",
     "name": "Ahmedabad",
     "latitude": 23.0225,
-    "longitude": 72.607
+    "longitude": 72.607,
+    "connections": ["core1", "regional1"]
   },
   {
     "id": "man2",
     "type": "MANNode",
     "name": "Pune",
     "latitude": 18.5204,
-    "longitude": 73.8567
+    "longitude": 73.8567,
+    "connections": ["core1"]
   },
   {
     "id": "man3",
     "type": "MANNode",
     "name": "Nagpur",
     "latitude": 21.0969,
-    "longitude": 79.0879
+    "longitude": 79.0879,
+    "connections": ["regional2"]
   },
   {
     "id": "man4",
     "type": "MANNode",
     "name": "Bhubaneswar",
     "latitude": 20.2582,
-    "longitude": 85.8319
+    "longitude": 85.8319,
+    "connections": ["core3"]
   },
   {
     "id": "man5",
     "type": "MANNode",
     "name": "Guwahati",
     "latitude": 26.1477,
-    "longitude": 91.733
+    "longitude": 91.733,
+    "connections": ["core3"]
   },
   {
     "id": "man6",
     "type": "MANNode",
     "name": "Patna",
     "latitude": 25.5941,
-    "longitude": 85.0531
+    "longitude": 85.0531,
+    "connections": ["core3"]
   },
   {
     "id": "man7",
     "type": "MANNode",
     "name": "Ranchi",
     "latitude": 23.3744,
-    "longitude": 85.3256
+    "longitude": 85.3256,
+    "connections": ["core3"]
   }
 ]
